@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-// START OMIT
+// WithGzipFlush starts OMIT
 func WithGzipFlush(fn http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Encoding", "gzip")

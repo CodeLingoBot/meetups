@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-// START OMIT
+// WithLogging starts OMIT
 func WithLogging(h http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		bb := &bytes.Buffer{}

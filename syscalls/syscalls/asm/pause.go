@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-// START OMIT
+// Pause starts OMIT
 func Pause()
 
 func main() {

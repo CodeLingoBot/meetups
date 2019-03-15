@@ -8,7 +8,7 @@ func cacheHash() string {
 	return "TODO"
 }
 
-// START OMIT
+// WithHash starts OMIT
 func WithHash(h http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Add("X-CACHE-HASH", cacheHash())
